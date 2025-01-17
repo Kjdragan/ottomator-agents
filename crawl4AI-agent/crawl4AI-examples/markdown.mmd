@@ -1,0 +1,121 @@
+graph LR
+    subgraph super_research
+        agentops.log
+        subgraph cache
+            subgraph openai
+                57822dd96e141476c20f1d5d9e0205bbf6fc0bd787409ff0fe5b66a1fc4f346b.pickle
+                c7a43507bfb13de627e3755104d2f768a58d7095c3c8a52285be6edcfea3edff.pickle
+            end
+            search
+        end
+        subgraph config
+            config.yaml
+            config.yaml.old
+            corpus.json
+            image_cache
+            README.md
+        end
+        main.py
+        pyproject.toml
+        README.md
+        requirements.txt
+        subgraph src
+            __init__.py
+             subgraph clients
+                llm_client.py
+                tavily_client.py
+                __init__.py
+            end
+             subgraph exceptions
+                api_exceptions.py
+                __init__.py
+            end
+            exceptions.py
+             subgraph models
+                api_models.py
+                corpus_models.py
+                exceptions.py
+                performance_models.py
+                processing_models.py
+                report_models.py
+                schema.py
+                __init__.py
+            end
+            subgraph processors
+                corpus_processor.py
+                image_processor.py
+                improved_report_generator.py
+                intent_processor.py
+                output_processor.py
+                performance_processor.py
+                report_consolidator.py
+                search_processor.py
+                topic_analyzer.py
+                __init__.py
+            end
+            subgraph utils
+                api_logging.py
+                cache_maintenance.py
+                json_utils.py
+                logging.py
+                logging_config.py
+                report_generator.py
+                search_cache.py
+                __init__.py
+            end
+        end
+        styles
+        subgraph templates
+           subgraph prompts
+                base.jinja2
+                expert.jinja2
+           end
+           report.md
+        end
+        uv.lock
+        subgraph _documentation
+          01_system_overview.md
+          02_data_models.md
+          03_llm_integration.md
+          04_search_processing.md
+          05_output_generation.md
+          06_configuration.md
+          07_current_state_and_improvements.md
+          08_performance_optimization_plan.md
+          09_documentation_guide.md
+          10_model_chain.md
+          local_rules_copy
+        end
+        subgraph _documentation_new
+            01_stack_diagram.md
+            02_core_pipeline.md
+            03_api_integration.md
+            04_intent_processor.md
+            05_search_processor.md
+            06_corpus_processor.md
+            07_output_processor.md
+            08_performance_processor.md
+            09_cross_processor_interactions.md
+            10_performance_optimization.md
+            11_report_generator.md
+            12_topic_analyzer.md
+            13_data_flows.md
+        end
+        subgraph _logs
+           research_2025-01-12_02-33-45.log
+           research_2025-01-12_04-54-25.log
+           research_2025-01-12_05-02-05.log
+           research_2025-01-12_05-11-09.log
+           research_2025-01-12_05-13-39.log
+           research_2025-01-12_05-35-18.log
+           research_2025-01-12_05-47-19.log
+        end
+        subgraph _workproducts
+            00_cleaned_corpus_output_2025-01-11_23-49-26.json
+            02_raw_topic_list.json
+            06_final_topic_list.jsonl
+            07_final_with_evidence.jsonl
+            article_cleaning_debug.jsonl
+            corpus_system_prompt_1736660906.json
+        end
+    end
