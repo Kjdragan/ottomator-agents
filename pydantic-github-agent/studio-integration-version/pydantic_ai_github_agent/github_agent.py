@@ -19,11 +19,11 @@ from devtools import debug
 
 load_dotenv()
 
-llm = os.getenv('LLM_MODEL', 'deepseek/deepseek-chat')
+llm = os.getenv("LLM_MODEL", "deepseek-chat")
 model = OpenAIModel(
     llm,
-    base_url = 'https://openrouter.ai/api/v1',
-    api_key=os.getenv('OPEN_ROUTER_API_KEY')
+    base_url="https://api.deepseek.com/v1",
+    api_key=os.getenv("DEEPSEEK_API_KEY"),
 )
 
 @dataclass
