@@ -68,7 +68,7 @@ def verify_token(credentials: HTTPAuthorizationCredentials = Security(security))
         )
     return True    
 
-async def fetch_conversation_history(session_id: str, limit: int = 10) -> List[Dict[str, Any]]:
+async def fetch_conversation_history(session_id: str, limit: int = 20) -> List[Dict[str, Any]]:
     """Fetch the most recent conversation history for a session."""
     try:
         response = supabase.table("messages") \

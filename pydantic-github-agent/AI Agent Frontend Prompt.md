@@ -26,8 +26,7 @@ And that is because the user and AI messages are stored in a realtime Supabase t
 
 SUPABASE_URL="["https://tmckhfloennrdxkqescf.supabase.co"]"
 
-SUPABASE_SERVICE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmbmVhYnh3ZW1oa2dmYmJkcWFqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjg2NzYzNSwiZXhwIjoyMDUyNDQzNjM1fQ.G72an_UOT0-bfvd_k9upe4nzd1h8JoF7C0h-KYnx_ao"
-
+SUPABASE_SERVICE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRtY2toZmxvZW5ucmR4a3Flc2NmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc1MTgzMDQsImV4cCI6MjA1MzA5NDMwNH0.KtXNHcayCF1ujP2rn23ax0AwQBfQscwoy9PMZFv8ORU
 
 Don’t ask me to configure Supabase, just use the above URL and public key in the code.
 
