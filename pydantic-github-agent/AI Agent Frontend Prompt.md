@@ -24,8 +24,10 @@ So you need to provide all of these in the POST request payload.
 
 And that is because the user and AI messages are stored in a realtime Supabase table in the API so nothing is returned to the frontend besides the success (true or false). So you need to set up the Supabase client to wait for updates in realtime to add new messages to the conversation in the frontend.
 
-**Supabase URL: [https://cfneabxwemhkgfbbdqaj.supabase.co]**  
-**Supabase Public key: [eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmbmVhYnh3ZW1oa2dmYmJkcWFqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY4Njc2MzUsImV4cCI6MjA1MjQ0MzYzNX0.XdgNkX40IOUSgLUOqj-z8_oXUJk50G_8wD1bc6jdPv0]**
+SUPABASE_URL="["https://tmckhfloennrdxkqescf.supabase.co"]"
+
+SUPABASE_SERVICE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmbmVhYnh3ZW1oa2dmYmJkcWFqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjg2NzYzNSwiZXhwIjoyMDUyNDQzNjM1fQ.G72an_UOT0-bfvd_k9upe4nzd1h8JoF7C0h-KYnx_ao"
+
 
 Don’t ask me to configure Supabase, just use the above URL and public key in the code.
 

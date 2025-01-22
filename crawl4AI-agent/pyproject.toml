@@ -145,4 +145,5 @@ dependencies = [
     "devtools>=0.12.2",
     "fastapi>=0.115.6",
     "uvicorn>=0.34.0",
+    "typing>=3.10.0.0",
 ]

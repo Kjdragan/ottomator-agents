@@ -1,3 +1,5 @@
+# This is the template that is compatible with Cole's agent studio and also to build pydantic AI agents with a fastAPI
+
 from typing import List, Optional, Dict, Any
 from fastapi import FastAPI, HTTPException, Security, Depends
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
