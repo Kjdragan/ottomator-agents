@@ -1,6 +1,6 @@
-**Lovable/Bolt Prompt for our AI Agent Frontend**
+**DeepSeek R1 Prompt for n8n AI Agent Frontend**
 
-Create a beautiful dark theme chat interface (dark blue and gray colors) for me to talk to my AI agent which is hosted with FastAPI. The URL for the agent is **http://localhost:8001/api/pydantic-github-agent**. 
+Create a beautiful dark theme chat interface (dark blue and gray colors) for me to talk to my AI agent which is hosted with n8n. The URL for the agent is [https://n8n.ottomator.ai/webhook/invoke-test-agent](https://n8n.ottomator.ai/webhook/invoke-test-agent).
 
 **The request schema is set up like this:**
 
